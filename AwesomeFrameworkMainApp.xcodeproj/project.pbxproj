@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDC524C520FCEB1400D7FEC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC524C420FCEB1400D7FEC7 /* AppDelegate.swift */; };
+		EDC524C720FCEB1400D7FEC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC524C620FCEB1400D7FEC7 /* ViewController.swift */; };
+		EDC524CA20FCEB1400D7FEC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC524C820FCEB1400D7FEC7 /* Main.storyboard */; };
+		EDC524CC20FCEB1600D7FEC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC524CB20FCEB1600D7FEC7 /* Assets.xcassets */; };
+		EDC524CF20FCEB1600D7FEC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC524CD20FCEB1600D7FEC7 /* LaunchScreen.storyboard */; };
+		EDC524D920FCF1FE00D7FEC7 /* AwesomeFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC524D820FCF1FE00D7FEC7 /* AwesomeFramework.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDC524C120FCEB1400D7FEC7 /* AwesomeFrameworkMainApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwesomeFrameworkMainApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC524C420FCEB1400D7FEC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDC524C620FCEB1400D7FEC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDC524C920FCEB1400D7FEC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDC524CB20FCEB1600D7FEC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDC524CE20FCEB1600D7FEC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDC524D020FCEB1600D7FEC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDC524D820FCF1FE00D7FEC7 /* AwesomeFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AwesomeFramework.framework; path = Carthage/Build/iOS/AwesomeFramework.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDC524BE20FCEB1400D7FEC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC524D920FCF1FE00D7FEC7 /* AwesomeFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDC524B820FCEB1400D7FEC7 = {
+			isa = PBXGroup;
+			children = (
+				EDC524C320FCEB1400D7FEC7 /* AwesomeFrameworkMainApp */,
+				EDC524C220FCEB1400D7FEC7 /* Products */,
+				EDC524D720FCF1FE00D7FEC7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EDC524C220FCEB1400D7FEC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDC524C120FCEB1400D7FEC7 /* AwesomeFrameworkMainApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDC524C320FCEB1400D7FEC7 /* AwesomeFrameworkMainApp */ = {
+			isa = PBXGroup;
+			children = (
+				EDC524C420FCEB1400D7FEC7 /* AppDelegate.swift */,
+				EDC524C620FCEB1400D7FEC7 /* ViewController.swift */,
+				EDC524C820FCEB1400D7FEC7 /* Main.storyboard */,
+				EDC524CB20FCEB1600D7FEC7 /* Assets.xcassets */,
+				EDC524CD20FCEB1600D7FEC7 /* LaunchScreen.storyboard */,
+				EDC524D020FCEB1600D7FEC7 /* Info.plist */,
+			);
+			path = AwesomeFrameworkMainApp;
+			sourceTree = "<group>";
+		};
+		EDC524D720FCF1FE00D7FEC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDC524D820FCF1FE00D7FEC7 /* AwesomeFramework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDC524C020FCEB1400D7FEC7 /* AwesomeFrameworkMainApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC524D320FCEB1600D7FEC7 /* Build configuration list for PBXNativeTarget "AwesomeFrameworkMainApp" */;
+			buildPhases = (
+				EDC524BD20FCEB1400D7FEC7 /* Sources */,
+				EDC524BE20FCEB1400D7FEC7 /* Frameworks */,
+				EDC524BF20FCEB1400D7FEC7 /* Resources */,
+				EDC524D620FCEE3300D7FEC7 /* Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AwesomeFrameworkMainApp;
+			productName = AwesomeFrameworkMainApp;
+			productReference = EDC524C120FCEB1400D7FEC7 /* AwesomeFrameworkMainApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDC524B920FCEB1400D7FEC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Nikolay Derkach";
+				TargetAttributes = {
+					EDC524C020FCEB1400D7FEC7 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = EDC524BC20FCEB1400D7FEC7 /* Build configuration list for PBXProject "AwesomeFrameworkMainApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDC524B820FCEB1400D7FEC7;
+			productRefGroup = EDC524C220FCEB1400D7FEC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDC524C020FCEB1400D7FEC7 /* AwesomeFrameworkMainApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDC524BF20FCEB1400D7FEC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC524CF20FCEB1600D7FEC7 /* LaunchScreen.storyboard in Resources */,
+				EDC524CC20FCEB1600D7FEC7 /* Assets.xcassets in Resources */,
+				EDC524CA20FCEB1400D7FEC7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EDC524D620FCEE3300D7FEC7 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/AwesomeFramework.framework",
+			);
+			name = "Run Script";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/AwesomeFramework.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDC524BD20FCEB1400D7FEC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC524C720FCEB1400D7FEC7 /* ViewController.swift in Sources */,
+				EDC524C520FCEB1400D7FEC7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDC524C820FCEB1400D7FEC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC524C920FCEB1400D7FEC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDC524CD20FCEB1600D7FEC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC524CE20FCEB1600D7FEC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDC524D120FCEB1600D7FEC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDC524D220FCEB1600D7FEC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDC524D420FCEB1600D7FEC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9GHXTK3SK7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = AwesomeFrameworkMainApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.derka.AwesomeFrameworkMainApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDC524D520FCEB1600D7FEC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9GHXTK3SK7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = AwesomeFrameworkMainApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.derka.AwesomeFrameworkMainApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDC524BC20FCEB1400D7FEC7 /* Build configuration list for PBXProject "AwesomeFrameworkMainApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC524D120FCEB1600D7FEC7 /* Debug */,
+				EDC524D220FCEB1600D7FEC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC524D320FCEB1600D7FEC7 /* Build configuration list for PBXNativeTarget "AwesomeFrameworkMainApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC524D420FCEB1600D7FEC7 /* Debug */,
+				EDC524D520FCEB1600D7FEC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDC524B920FCEB1400D7FEC7 /* Project object */;
+}
