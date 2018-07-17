@@ -1,1 +1,3 @@
-git "file:///Users/nderkach/Development/AwesomeFramework" "master"
+#git "file:///path/to/AwesomeFramework" "master"
+github "nderkach/AwesomeFramework" "master"
+
